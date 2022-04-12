@@ -33,7 +33,7 @@ export default function Header(){
             </div>
         </div>
         <div className="image">
-            <StaticImage placeholder="blurred" src={'../../../images/homeHeaderImage.png'} alt={"Header vector"}/>
+            <StaticImage width={549} placeholder="blurred" src={'../../../images/homeHeaderImage.png'} alt={"Header vector"}/>
         </div>
     </div>
 }

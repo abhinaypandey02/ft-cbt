@@ -5,20 +5,20 @@ import {StaticImage} from "gatsby-plugin-image";
 const ELEMENTS=[
     {
         logo:<StaticImage placeholder="blurred" src={'../../../images/whyUs/1.png'} alt={"Payment after Passing"}/>,
-        heading:"Quality Service",
-        content:"We have complete confidence that we provide quality service."
+        heading:"Quality Products",
+        content:"We have complete confidence that we provide quality products."
     },{
         logo:<StaticImage placeholder="blurred" src={'../../../images/whyUs/2.png'} alt={"24*7 Support"}/>,
         heading:"24*7 Support",
         content:"Our motto is to develop long-term trust and relationships with our clients. Hence, you can reach us round the clock from anywhere to get your queries solved."
     },{
         logo:<StaticImage placeholder="blurred" src={'../../../images/whyUs/3.png'} alt={"100% Secure & Confidential"}/>,
-        heading:"100% Secure ",
-        content:"We take top-notch security measures."
+        heading:"500+ Customers",
+        content:"We have a vast family of 500+ customers."
     },{
         logo:<StaticImage placeholder="blurred" src={'../../../images/whyUs/4.png'} alt={"600+ Certification Portfolio"}/>,
-        heading:"500+ Farmers Connected",
-        content:"We have a vast family of 500+ farmers."
+        heading:"100+ Farmers Connected",
+        content:"We have a vast family of 100+ farmers."
     },{
         logo:<StaticImage placeholder="blurred" src={'../../../images/whyUs/5.png'} alt={"Experienced Team"}/>,
         heading:"Experienced Team",

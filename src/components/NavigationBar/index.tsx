@@ -39,7 +39,7 @@ export default function NavigationBar({location}:any){
     return <div className="navbar">
         <Navbar className="navbar-local" bg="white" expand="lg">
             <div className="cont">
-                <Navbar.Brand as={Link} to="/" className={'icon'}><StaticImage placeholder="blurred" src={'../../images/navIcon.png'} alt={"Company logo"}/></Navbar.Brand>
+                <Navbar.Brand as={Link} to="/" className={'icon'}><StaticImage width={122} placeholder="blurred" src={'../../images/navIcon.png'} alt={"Company logo"}/></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse className="menu-collapse">
                     <Nav className="menu">

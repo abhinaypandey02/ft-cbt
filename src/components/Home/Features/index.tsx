@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './styles.scss';
 import {StaticImage} from "gatsby-plugin-image";
 
@@ -17,8 +17,9 @@ const FEATURES=[
 
 
 export default function Features(){
+    const [selected,setSelected]=useState(-1);
     return <div className="features">
-        {FEATURES.map(feature=><div className="feature">
+        {FEATURES.map((feature,i)=><div onMouseOver={()=>{setSelected(i)}} className={"feature "+(selected===i?"selected":"")}>
             <div className="content">
                 <div className="heading">{feature.heading}</div>
                 <div className="text">{feature.text}</div>

@@ -18,6 +18,14 @@
 
 
     }
+    &.selected{
+      background: #54e854;
+      .content{
+        .heading, .text{
+          color:white;
+        }
+      }
+    }
     .content{
       width: 50%;
       @media (max-width: 991.98px) {

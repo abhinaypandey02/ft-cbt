@@ -1,0 +1,121 @@
+.how-to-use{
+  border-radius: 50px;
+  padding: 65px 210px;
+  /* Center the image */
+  /* Do not repeat the image */
+  background-position: center;
+  background-color: #F8F8F8;
+  background-repeat: no-repeat;
+  background-size: 850px!important;
+  overflow: hidden;
+  @media (max-width: 991.98px) {
+      padding: 16px 39px 16px 55px;
+      margin: 30px 10px;
+    border-radius: 20px;
+  }
+  &>.heading{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+
+    color: #0A9E62;
+    margin-bottom: 60px;
+    @media (max-width: 991.98px) {
+      font-size: 16px;
+      line-height: 24px;
+      margin-bottom: 24px;
+    }
+  }
+  .elements{
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: 991.98px) {
+        flex-wrap: wrap;
+    }
+    .element{
+      width: 200px;
+
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      @media (max-width: 991.98px) {
+          width: 100%;
+        margin-bottom: 14px;
+        flex-direction: row;
+      }
+      .counter{
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 18px;
+        text-align: center;
+
+        color: #FFFFFF;
+
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 28px;
+        width: 28px;
+        position: absolute;
+        top:0;
+        left: 0;
+        border-radius: 50%;
+        background: linear-gradient(153.43deg, #0A9E62 -26.79%, #77C50B 29.42%, #F8E800 83.33%);
+        @media (max-width: 991.98px) {
+            width: 15px;
+          height: 15px;
+          font-size: 7px;
+          line-height: 10px;
+        }
+      }
+      .image{
+        @media (max-width: 991.98px) {
+          width: 61.62px;
+          height: 58.69px;
+          flex-shrink: 0;
+          margin-right: 9px;
+          margin-left: 20px;
+        }
+
+      }
+      .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        @media (max-width: 991.98px) {
+            text-align: left;
+        }
+        .heading{
+          margin: 10px 0 20px;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 24px;
+
+          color: #545454;
+          @media (max-width: 991.98px) {
+            font-size: 10px;
+            line-height: 15px;
+            margin: 3px 0;
+            width: 100%;
+          }
+        }
+        .desc{
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 18px;
+
+          color: #A9A9A9;
+          @media (max-width: 991.98px) {
+            font-size: 8px;
+            line-height: 12px;
+
+          }
+        }
+      }
+    }
+  }
+}

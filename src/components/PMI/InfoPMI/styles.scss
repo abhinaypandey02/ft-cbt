@@ -1,0 +1,50 @@
+.info-pmi{
+  margin: 119px 100px 98px 120px;
+  display: flex;
+  align-items: center;
+  @media (max-width: 991.98px) {
+      margin: 52px 23px 34px;
+      flex-wrap: wrap-reverse;
+    justify-content: center;
+  }
+  .content{
+    @media (max-width: 991.98px) {
+        text-align: center;
+    }
+    .heading{
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 45px;
+
+      color: #0A9E62;
+      margin-bottom: 19px;
+      @media (max-width: 991.98px) {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 14px;
+      }
+
+    }
+    .desc{
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+
+      color: #A9A9A9;
+
+      @media (max-width: 991.98px) {
+        font-size: 10px;
+        line-height: 12px;
+      }
+    }
+  }
+  .image{
+    flex-shrink: 0;
+    padding-left: 64px;
+    @media (max-width: 991.98px) {
+        padding: 0;
+        width: 90%;
+      margin-bottom: 35px ;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+
+@import '../../scss/_variables.scss';
+@import '../../scss/_mixins.scss';
+.layout{
+  padding:0 80px;
+
+  @include media-breakpoint-down(md) {
+    padding: 0;
+  }
+}

@@ -1,0 +1,74 @@
+.getInTouch {
+  display: flex;
+  background: linear-gradient(245.16deg, #00395C 8.93%, #01121D 87.45%);
+  box-shadow: 0px 4px 30px rgba(0, 35, 56, 0.15);
+  border-radius: 40px;
+  padding: 26px 75px 0 15px;
+  margin: 0 50px;
+  @media (max-width: 991.98px) {
+    margin: 0 10px;
+    border-radius: 20px;
+    padding: 11px 34px;
+  }
+
+  .image {
+    flex-grow: 1;
+    display: flex;
+    align-items: end;
+    @media (max-width: 991.98px) {
+        display: none;
+    }
+    .outerImg {
+      width: 100%;
+
+      .innerImage {
+
+      }
+    }
+  }
+
+  .form-container {
+    margin-bottom: 26px;
+    @media (max-width: 991.98px) {
+      text-align: center;
+
+    }
+
+    .heading {
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 45px;
+
+      color: #FFFFFF;
+      margin: 10px 8px;
+      @media (max-width: 991.98px) {
+        font-size: 16px;
+        line-height: 24px;
+        margin: 4px 8px;
+      }
+    }
+
+    .desc {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+
+      color: #FFFFFF;
+      margin: 0 8px 27px;
+      @media (max-width: 991.98px) {
+        font-size: 8px;
+        line-height: 12px;
+        margin: 0 8px 12px;
+      }
+
+    }
+
+    .form-wrapper {
+      width: 628px;
+      @media (max-width: 991.98px) {
+          width: 100%;
+      }
+    }
+
+  }
+}

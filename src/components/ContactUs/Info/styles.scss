@@ -1,0 +1,99 @@
+.info{
+  display: flex;
+  margin: 119px 120px 98px;
+  @media (max-width: 991.98px) {
+    margin: 16px 23px 20px;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+  }
+  .content{
+    margin-right: 65px;
+    @media (max-width: 991.98px) {
+        margin: 0;
+      text-align: center;
+    }
+    .heading{
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 45px;
+      margin-bottom: 19px;
+      /* identical to box height */
+
+      color: #0A9E62;
+      @media (max-width: 991.98px) {
+          margin-bottom: 14px;
+        font-size: 16px;
+        line-height: 24px;
+      }
+    }
+    .desc{
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+
+      color: #A9A9A9;
+      @media (max-width: 991.98px) {
+        font-size: 8px;
+        line-height: 12px;
+      }
+
+    }
+    .contact-info-container{
+      .contact-info{
+        display: flex;
+        align-items: center;
+
+        margin: 22px 0;
+
+        @media (max-width: 991.98px) {
+            justify-content: center;
+            margin: 14px 0;
+        }
+        .logo{
+          margin-right: 13px;
+          display: flex;
+          align-items: center;
+          @media (max-width: 991.98px) {
+              margin-right: 7.6px;
+              width: 12px;
+          }
+        }
+        .title{
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 24px;
+
+          /* identical to box height */
+
+          color: #0A9E62;
+          @media (max-width: 991.98px) {
+            font-size: 10px;
+            line-height: 15px;
+          }
+        }
+        .text{
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+
+          /* identical to box height */
+
+          color: #0A9E62;
+          @media (max-width: 991.98px) {
+            font-size: 10px;
+            line-height: 15px;
+          }
+        }
+      }
+    }
+
+  }
+  .image{
+    flex-shrink: 0;
+
+    @media (max-width: 991.98px) {
+        margin-bottom: 16px;
+      width: 70%;
+    }
+  }
+}

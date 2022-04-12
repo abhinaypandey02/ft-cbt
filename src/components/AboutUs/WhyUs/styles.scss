@@ -1,0 +1,42 @@
+.why-us-about{
+  padding: 30px 120px;
+  @media (max-width: 991.98px) {
+      padding: 30px 23px 0;
+  }
+  .heading{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    color: #0A9E62;
+    margin: 20px 0;
+    @media (max-width: 991.98px) {
+      font-size: 18px;
+      line-height: 24px;
+    }
+  }
+  .desc{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #A9A9A9;
+    @media (max-width: 991.98px) {
+      font-size: 12px;
+      line-height: 18px;
+    }
+  }
+  .bottom-heading{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #A9A9A9;
+    @media (max-width: 991.98px) {
+      font-size: 12px;
+      line-height: 18px;
+    }
+  }
+}

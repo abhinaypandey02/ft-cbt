@@ -1,0 +1,56 @@
+.info-certifications {
+  margin: 16px 23px 34px;
+  display: flex;
+  @media (max-width: 991.98px) {
+    flex-wrap: wrap-reverse;
+  }
+
+  .content {
+    margin-right: 33px;
+    @media (max-width: 991.98px) {
+        margin: 0;
+    }
+    .heading {
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 45px;
+
+      /* identical to box height */
+
+      color: #0A9E62;
+      margin-bottom: 20px;
+
+      @media (max-width: 991.98px) {
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        margin-bottom: 0;
+      }
+
+    }
+
+    .desc {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+
+      color: #A9A9A9;
+      @media (max-width: 991.98px) {
+        font-size: 8px;
+        line-height: 12px;
+        text-align: center;
+      }
+
+    }
+
+  }
+
+  .image {
+    flex-shrink: 0;
+    @media (max-width: 991.98px) {
+
+      margin: 0 65px 16px;
+      flex-shrink: initial;
+    }
+  }
+}

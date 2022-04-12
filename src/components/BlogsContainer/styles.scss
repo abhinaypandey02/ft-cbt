@@ -1,0 +1,118 @@
+@import '../../scss/variables';
+@import '../../scss/mixins';
+.blogs{
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  &>.heading{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+
+    /* identical to box height */
+    text-align: center;
+
+    color: #0A9E62;
+    margin: 80px 0 20px;
+    @media (max-width: 991.98px) {
+      font-size: 16px;
+      line-height: 24px;
+      margin: 34px 0 16px;
+    }
+
+  }
+  .elements{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px;
+    @include media-breakpoint-down(md){
+      justify-content: center;
+      padding: 0 0;
+    }
+
+    .element{
+      max-width: 258px;
+      margin: 30px 0;
+      padding: 10px;
+      background: #FFFFFF;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      @media (max-width: 991.98px) {
+        margin: 0 7.5px;
+        height: 112px;
+        padding: 3px;
+        border-radius: 7.75px;
+      }
+      .image{
+        border-radius: 10px;
+        overflow: hidden;
+        text-align: center;
+        height: 150px;
+        flex-shrink:0;
+        @media (max-width: 991.98px) {
+            height: 70px;
+          order-radius: 7.75px;
+
+        }
+        div{
+          height: 100%;
+          width: 100%;
+        }
+      }
+      .title{
+        padding: 0 5px;
+        text-align: left;
+        margin: 10px 0;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+
+        /* identical to box height */
+
+        color: #231F20;
+        @media (max-width: 991.98px) {
+          font-size: 7px;
+          line-height: 10px;
+        }
+      }
+      .desc{
+        padding: 0 5px;
+        flex-grow: 1;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 140%;
+        margin: 0 0 10px;
+        /* or 14px */
+
+        color: #6D6D6D;
+        @media (max-width: 991.98px) {
+            display: none;
+        }
+
+      }
+      .bottom{
+        padding: 0 5px;
+
+        display: flex;
+        justify-content: space-between;
+        .date{
+          font-weight: normal;
+          font-size: 10px;
+          line-height: 15px;
+
+          color: #231F20;
+          @media (max-width: 991.98px) {
+            font-size: 4px;
+            line-height: 6px;
+          }
+        }
+        .read{
+          @media (max-width: 991.98px) {
+              height: 3px;
+            width: 6px;
+          }
+        }
+      }
+    }}
+}

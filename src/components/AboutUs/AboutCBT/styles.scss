@@ -1,0 +1,52 @@
+.aboutCBT{
+  display: flex;
+  padding: 75px;
+  margin: 45px 0;
+  @media (max-width: 991.98px) {
+      flex-wrap: wrap-reverse;
+    margin: 16px 0 0;
+    padding: 0 40px;
+
+  }
+  text-align: center;
+  .content{
+    width:50%;
+    padding: 0 45px;
+    @media (max-width: 991.98px) {
+        width: 100%;
+      padding: 0;
+    }
+    .heading{
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 45px;
+
+      color: #0A9E62;
+      margin-bottom: 18px;
+      @media (max-width: 991.98px) {
+        margin: 20px 0;
+        font-size: 18px;
+        line-height: 24px;
+      }
+    }
+    .desc{
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+
+      color: #A9A9A9;
+      @media (max-width: 991.98px) {
+        font-size: 12px;
+        line-height: 18px;
+      }
+    }
+  }
+  .image{
+    padding: 0 45px;
+    width: 50%;
+    @media (max-width: 991.98px) {
+        width: 100%;
+      padding: 0;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.navigator{
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0 80px;
+  display: flex;
+  @media (max-width: 991.98px) {
+    font-size: 8px;
+    line-height: 10px;
+    padding: 0 18px;
+    flex-wrap: wrap;
+  }
+  .navigator-container{
+    display: flex;
+    align-items: center;
+    @media (max-width: 991.98px) {
+        margin: 2px;
+    }
+    .firstPath{
+      font-weight: 400;
+      color: #292929;
+      text-decoration: none;
+      flex-shrink: 1;
+    }
+    .navigator-arrow{
+      margin: 0 10px;
+      flex-shrink: 0;
+    }
+  }
+
+  .lastPath{
+    font-weight: 700;
+    color: #292929;
+    text-decoration: none;
+    @media (max-width: 991.98px) {
+      margin: 2px;
+    }
+  }
+
+}

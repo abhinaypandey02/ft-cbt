@@ -1,0 +1,24 @@
+.topology{
+  padding: 0 120px;
+  @media (max-width: 991.98px) {
+      padding: 0 10px;
+  }
+  .heading{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    margin-bottom: 30px;
+    /* identical to box height */
+
+    color: #0A9E62;
+
+    @media (max-width: 991.98px) {
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+    }
+  }
+  .image{
+    width: 100%;
+  }
+}

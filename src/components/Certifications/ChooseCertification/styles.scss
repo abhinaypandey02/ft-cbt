@@ -1,0 +1,35 @@
+.choose-certification{
+  &>.heading{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+
+    /* identical to box height */
+    text-align: center;
+
+    color: #0A9E62;
+
+    margin-bottom: 20px;
+    @media (max-width: 991.98px) {
+      font-size: 16px;
+      line-height: 24px;
+      margin-bottom: 16px;
+
+    }
+  }
+  .certifications-container{
+    margin: 0 20px;
+    @media (max-width: 991.98px) {
+        margin: 0 10px;
+    }
+    .group{
+      margin-bottom: 95px;
+      display: flex;
+      @media (max-width: 991.98px) {
+          flex-wrap: wrap;
+        margin-bottom: 51px;
+
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+.page-header{
+  padding: 0 70px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 446px;
+  background: linear-gradient(245.16deg, #00395C 8.93%, #01121D 87.45%);
+  box-shadow: 0 4px 30px rgba(0, 35, 56, 0.15);
+  border-radius: 120px;
+  margin-bottom: 50px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 75px;
+  text-align: center;
+  z-index: 0;
+  color: #FFFFFF;
+  @media (max-width: 991.98px) {
+    border-radius: 20px;
+    font-size: 25px;
+    line-height: 38px;
+    height: 303px;
+    margin-bottom: 10px;
+
+  }
+  .ellipse{
+    position: absolute;
+    top:40%;
+    left: 50%;
+    z-index: -1;
+    @media (max-width: 991.98px) {
+      top:47%;
+      left: 53%;
+        height: 27px;
+        width: 59px;
+    }
+
+  }
+
+}

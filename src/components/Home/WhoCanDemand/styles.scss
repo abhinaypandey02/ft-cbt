@@ -1,0 +1,39 @@
+.whoCanDemand{
+  margin: 90px 0;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  @media (max-width: 991.98px) {
+    margin: 34px 0;
+  }
+  .heading{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+
+    /* identical to box height */
+    text-align: center;
+
+    color: #0A9E62;
+    margin:50px 0;
+    @media (max-width: 991.98px) {
+        margin: 0 0 16px;
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+  .text{
+    padding: 0 115px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #A9A9A9;
+    @media (max-width: 991.98px) {
+        padding: 0 23px;
+      font-size: 10px;
+      line-height: 12px;
+    }
+
+  }
+}

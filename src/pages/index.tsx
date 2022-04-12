@@ -14,6 +14,7 @@ const IndexPage = ({location}: any) => {
             <Header/>
             {/*<Companies/>*/}
         <Features/>
+
         <WhyUs/>
         <HowItWorks/>
         <WhoCanDemand/>

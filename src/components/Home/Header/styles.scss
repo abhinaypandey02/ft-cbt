@@ -1,13 +1,13 @@
 @import '../../../scss/_variables.scss';
 @import '../../../scss/_mixins.scss';
 .home-header{
-  background: linear-gradient(245.16deg, #00395C 8.93%, #01121D 87.45%);
+  background: #c9e165;
   box-shadow: 0 4px 30px rgba(0, 35, 56, 0.15);
   border-radius: 120px;
   display: flex;
 
   align-items: center;
-  color:white;
+  color:black;
   padding: 56px 24px 56px 116px;
   font-family: Poppins, sans-serif;
   font-style: normal;
@@ -34,7 +34,7 @@
       font-weight: 700;
       font-size: 50px;
       line-height: 75px;
-      color: #FFFFFF;
+
       @include media-breakpoint-down(md) {
         font-size: 25px;
         line-height: 38px;
@@ -48,7 +48,6 @@
       font-size: 16px;
       line-height: 24px;
 
-      color: #FFFFFF;
       @include media-breakpoint-down(md) {
         font-size: 10px;
         line-height: 15px;

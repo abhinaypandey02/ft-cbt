@@ -5,7 +5,7 @@ import {StaticImage} from "gatsby-plugin-image";
 export default function Header(){
     return <div className="home-header">
         <div className="content">
-            <StaticImage placeholder="blurred" className={"ellipse"} src={'../../../images/ellipse.png'} alt={'Ellipse'}/>
+            {/*<StaticImage placeholder="blurred" className={"ellipse"} src={'../../../images/ellipse.png'} alt={'Ellipse'}/>*/}
 
             <div className="heading">
                 Buy farm fresh vegetables online on freshtables
@@ -22,7 +22,7 @@ export default function Header(){
                         Order Now
                     </div>
                 </div>
-                <div className="secondary">
+                <div className="primary">
                     <div className="logo">
                         <StaticImage placeholder="blurred" src={'../../../images/headerButtonPlay.png'} alt={"Header Button Play"}/>
                     </div>

@@ -14,4 +14,4 @@ jobs:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_FRESHTABLES_5CA16 }}'
           projectId: freshtables-5ca16
-          channelId: prod
+          channelId: live

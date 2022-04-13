@@ -4,23 +4,23 @@ import {StaticImage} from "gatsby-plugin-image";
 
 const HOW_IT_WORKS=[
     {
-        logo: <StaticImage placeholder="blurred" src={'../../../images/howItWorks/1.png'} alt={"Select Your Desired Certification"}/>,
+        logo: <StaticImage width={50} placeholder="blurred" src={'../../../images/howItWorks/1.png'} alt={"Select Your Desired Certification"}/>,
         heading: "Farmers",
         desc:"The vegetables are taken from the farmers."
     },{
-        logo: <StaticImage placeholder="blurred" src={'../../../images/howItWorks/2.png'} alt={"Connect with us"}/>,
+        logo: <StaticImage width={60} placeholder="blurred" src={'../../../images/howItWorks/2.png'} alt={"Connect with us"}/>,
         heading: "Collection Center",
         desc:"The vegetables reach the collection center"
     },{
-        logo: <StaticImage placeholder="blurred" src={'../../../images/howItWorks/3.png'} alt={"Exam Scheduling"}/>,
+        logo: <StaticImage width={92} placeholder="blurred" src={'../../../images/howItWorks/3.png'} alt={"Exam Scheduling"}/>,
         heading: "Fulfillment Center",
         desc:"The vegetables reach the collection center"
     },{
-        logo: <StaticImage placeholder="blurred" src={'../../../images/howItWorks/4.png'} alt={"Passing the Exam"}/>,
+        logo: <StaticImage width={60} placeholder="blurred" src={'../../../images/howItWorks/4.png'} alt={"Passing the Exam"}/>,
         heading: "Distribution Center",
         desc:"The vegetables reach the distribution center"
     },{
-        logo: <StaticImage placeholder="blurred" src={'../../../images/howItWorks/5.png'} alt={"Pay the Fee"}/>,
+        logo: <StaticImage width={74}  placeholder="blurred" src={'../../../images/howItWorks/5.png'} alt={"Pay the Fee"}/>,
         heading: "Retailers",
         desc:"The vegetables reach the retailers"
     },

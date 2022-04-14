@@ -17,19 +17,19 @@ export default function Header(){
                 Home | Business | Franchise | Healthy
             </div>
             <div className="buttons">
-                <div className="primary">
-                    <div className="text">
-                        Order Now
-                    </div>
-                </div>
-                <div className="primary">
+                {/*<div className="primary">*/}
+                {/*    <div className="text">*/}
+                {/*        Order Now*/}
+                {/*    </div>*/}
+                {/*</div>*/}
+                <a href="https://play.google.com/store/apps/details?id=com.freshtablesshop.app"><div className="primary">
                     <div className="logo">
                         <StaticImage placeholder="blurred" src={'../../../images/headerButtonPlay.png'} alt={"Header Button Play"}/>
                     </div>
                     <div className="text">
                         Download App
                     </div>
-                </div>
+                </div></a>
             </div>
         </div>
         <div className="image">

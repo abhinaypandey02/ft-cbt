@@ -58,7 +58,10 @@
     }
     .buttons{
       display: flex;
-      justify-content: space-around;
+      @media (max-width: 991.98px) {
+
+        justify-content: space-around;
+      }
       .primary, .secondary{
         padding: 11px 21px;
         border: 2px solid #0A9E62;

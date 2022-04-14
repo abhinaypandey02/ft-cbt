@@ -40,7 +40,7 @@
       flex-direction: column;
       @media (max-width: 991.98px) {
         margin: 0 7.5px;
-        height: 112px;
+        //height: 112px;
         padding: 3px;
         border-radius: 7.75px;
       }
@@ -87,7 +87,9 @@
 
         color: #6D6D6D;
         @media (max-width: 991.98px) {
-            display: none;
+            //display: none;
+          font-size: 8px;
+          line-height: 12px
         }
 
       }

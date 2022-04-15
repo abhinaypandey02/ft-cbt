@@ -8,17 +8,19 @@ import HowItWorks from "../components/Home/HowItWorks";
 import WhoCanDemand from "../components/Home/WhoCanDemand";
 import BlogsContainer from "../components/BlogsContainer";
 import './styles.scss';
+import OurVision from "../components/Home/OurVision";
 // markup
 const IndexPage = ({location}: any) => {
     return (<Layout location={location}>
-            <Header/>
-            {/*<Companies/>*/}
+        <Header/>
+        <WhoCanDemand/>
+        {/*<Companies/>*/}
         <Features/>
 
         <WhyUs/>
         <HowItWorks/>
-        <WhoCanDemand/>
         <BlogsContainer/>
+        <OurVision/>
         </Layout>)
 }
 

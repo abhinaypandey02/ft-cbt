@@ -156,8 +156,10 @@
             }
           }
           .icon:nth-child(1){
-            width: 6.5px;
-
+            width: 10px;
+            @media (max-width: 991.98px) {
+                width: 6.5px;
+            }
             margin-left: 0;
           }
         }

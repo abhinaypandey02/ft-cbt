@@ -1,7 +1,21 @@
 .features{
   font-family: 'Poppins', sans-serif;
   font-style: normal;
+  .heading{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
 
+    /* identical to box height */
+    text-align: center;
+
+    color: #0A9E62;
+    margin:50px 0;
+    @media (max-width: 991.98px) {
+      margin: 0 0 16px;
+      font-size: 20px;
+      line-height: 24px;
+    }}
   .feature{
     display: flex;
     background: #F8F8F8;
@@ -48,16 +62,18 @@
         }
       }
       .text{
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 24px;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 30px;
 
-        color: #A9A9A9;
+        color: #595959;
 
         @media (max-width: 991.98px) {
           text-align: center;
-          font-size: 10px;
-          line-height: 12px;
+          font-size: 18px;
+          line-height: 23px;
+          margin: 15px 0;
+
         }
       }
     }
@@ -76,12 +92,12 @@
       }
     }
   }
-  .feature:nth-child(3){
+  .feature:nth-child(2){
     .image{
       .gatsby-image-wrapper{
-        width: 70%;
+        width: 30%;
         @media (max-width: 991.98px) {
-            width: 80%;
+            width: 30%;
         }
       }
     }

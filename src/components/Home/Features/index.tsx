@@ -5,23 +5,28 @@ import {StaticImage} from "gatsby-plugin-image";
 const FEATURES=[
     {
         heading:"Farming and supply chain",
-        text:"Creating a one-stop platform for all farm-based products, delivering fresh and quality veggies direct to door in the meantime of 10-12 hours. Creating a reliable sophisticated supply chain between farmers to end customers. Providing real-time data and transparency in the production and availability of vegetables in the market using traceability tech. In terms of feeding the world, our problem is  not lack of food, it's lack of appropriate infrastructure to distribute the fresh produce. For Instance, we waste 1/3rd of the food we produce.",
+        text:"Creating a one-stop platform for all farm-based products, delivering fresh and quality veggies direct to door in the meantime of 10-12 hours.",
         image:<StaticImage placeholder={"blurred"} src={'../../../images/features/1.png'} alt={"Feature 1"}/>
-    },
-    {
-        heading:"Our Vision",
-        text:"Our vision is to build a reliable and sophisticated market chain that can help farmers/consumers more easily sell/buy vegetables from the farm..",
-        image:<StaticImage placeholder="blurred" src={'../../../images/features/2.png'} alt={"Feature 2"}/>
-    },
+    },{
+        heading:"Farming and supply chain",
+        text:"Creating a reliable sophisticated supply chain between farmers to end customers.",
+        image:<StaticImage placeholder={"blurred"} src={'../../../images/features/2.png'} alt={"Feature 1"}/>
+    },{
+        heading:"Farming and supply chain",
+        text:"Providing real-time data and transparency in the production and availability of vegetables in the market.",
+        image:<StaticImage placeholder={"blurred"} src={'../../../images/features/3.png'} alt={"Feature 1"}/>
+    }
 ]
 
 
 export default function Features(){
     const [selected,setSelected]=useState(-1);
     return <div className="features">
+        <div className="heading">Farming and supply chain</div>
+
         {FEATURES.map((feature,i)=><div onMouseOver={()=>{setSelected(i)}} className={"feature "+(selected===i?"selected":"")}>
             <div className="content">
-                <div className="heading">{feature.heading}</div>
+                {/*<div className="heading">{feature.heading}</div>*/}
                 <div className="text">{feature.text}</div>
             </div>
             <div className="image">{feature.image}</div>

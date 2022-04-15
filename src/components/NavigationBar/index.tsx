@@ -12,6 +12,16 @@ const navLinks=[
 
     },
     {
+        name:"Products",
+        id:"products",
+        route:"/products"
+    },
+    {
+        name:"Contact Us",
+        id:"contactUs",
+        route:"/contact-us"
+    },
+    {
         name:"About Us",
         id:"aboutUs",
         route:"/about-us"

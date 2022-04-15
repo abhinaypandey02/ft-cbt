@@ -8,28 +8,35 @@ export default function Header(){
             {/*<StaticImage placeholder="blurred" className={"ellipse"} src={'../../../images/ellipse.png'} alt={'Ellipse'}/>*/}
 
             <div className="heading">
-                Buy farm fresh vegetables online on freshtables
+                Modernizing the fresh produce supply chain from farm to door.
             </div>
             <div className="text">
-                Freshtables procures vegetables from local farmers & supplies to urban area communities, retail shop, restaurants, businesses, etc
+                Delivering vegetables & farm based products on-demand to minimize the wastage of fresh produce.
                 <br/>
                 <br/>
-                Home | Business | Franchise | Healthy
+                Vegetables | Fruits | Grains | Milk & Eggs
+
             </div>
             <div className="buttons">
-                {/*<div className="primary">*/}
-                {/*    <div className="text">*/}
-                {/*        Order Now*/}
-                {/*    </div>*/}
-                {/*</div>*/}
-                <a href="https://play.google.com/store/apps/details?id=com.freshtablesshop.app"><div className="primary">
+                <a href="https://play.google.com/store/apps/details?id=com.freshtablesshop.delivery"><div className="primary">
                     <div className="logo">
                         <StaticImage placeholder="blurred" src={'../../../images/headerButtonPlay.png'} alt={"Header Button Play"}/>
                     </div>
                     <div className="text">
-                        Download App
+                        Retail
                     </div>
                 </div></a>
+                <a href="https://play.google.com/store/apps/details?id=com.freshtablesv2"><div className="primary">
+                    <div className="logo">
+                        <StaticImage placeholder="blurred" src={'../../../images/headerButtonPlay.png'} alt={"Header Button Play"}/>
+                    </div>
+                    <div className="text">
+                        Business
+                    </div>
+                </div></a>
+            </div>
+            <div className="text">
+                Home | Business | Franchise | Healthy
             </div>
         </div>
         <div className="image">

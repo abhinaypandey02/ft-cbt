@@ -9,9 +9,11 @@ import WhoCanDemand from "../components/Home/WhoCanDemand";
 import BlogsContainer from "../components/BlogsContainer";
 import './styles.scss';
 import OurVision from "../components/Home/OurVision";
+import SEO from "../components/SEO";
 // markup
 const IndexPage = ({location}: any) => {
     return (<Layout location={location}>
+        <SEO blog={false}/>
         <Header/>
         <WhoCanDemand/>
         {/*<Companies/>*/}

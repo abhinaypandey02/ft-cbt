@@ -18,7 +18,7 @@ export default function Header(){
 
             </div>
             <div className="buttons">
-                <a href="https://play.google.com/store/apps/details?id=com.freshtablesshop.delivery"><div className="primary">
+                <a href="https://play.google.com/store/apps/details?id=com.freshtablesshop.app"><div className="primary">
                     <div className="logo">
                         <StaticImage placeholder="blurred" src={'../../../images/headerButtonPlay.png'} alt={"Header Button Play"}/>
                     </div>

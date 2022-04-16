@@ -20,7 +20,7 @@ const IndexPage = ({location}: any) => {
         <Features/>
 
         <WhyUs/>
-        <HowItWorks/>
+        {/*<HowItWorks/>*/}
         <BlogsContainer/>
         <OurVision/>
         </Layout>)

@@ -105,11 +105,14 @@
   .image{
 
     width: 50%;
+    display: flex;
+    justify-content: center;
     @include media-breakpoint-down(md) {
       width: 100%;
     }
     img{
       max-width: 100%;
+
     }
   }
 }

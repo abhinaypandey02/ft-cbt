@@ -7,12 +7,11 @@ export default function Footer(){
     <div className="top">
         <div className="about">
             <div className="image">
-                <StaticImage width={122} placeholder="blurred" src={'../../images/navIcon.png'} alt={"Logo"}/>
+                <StaticImage width={122} placeholder="blurred" src={'../../images/footer-logo.jpeg'} alt={"Logo"}/>
             </div>
             <div className="text">
-                Freshtables is Farm to Door fresh vegetables delivery.
-
-                We grow and procure vegetables from local farms and deliver them to urban areas like Home & Retail outlets, Businesses, etc.
+                Freshtables Private Limited<br/>
+                #5-113, Appojiguda, Rangareddy, Hyderabad, Telangana, India, 501504
             </div>
         </div>
         <div className="contactSocial">
@@ -51,7 +50,7 @@ export default function Footer(){
     </div>
         <div className="bottom">
             <div className="text">
-                Copyright © 2022
+                Privacy Policy | Terms of use | © 2022 All Rights Freshtables Private Limited
             </div>
         </div>
     </div>

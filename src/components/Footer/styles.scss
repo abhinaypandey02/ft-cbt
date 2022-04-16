@@ -171,13 +171,13 @@
     justify-content: center;
     .text{
       text-align: center;
-      width: 257px;
+      min-width: 257px;
       border-bottom: 10px solid #C4C4C4;
       font-weight: 400;
       font-size: 16px;
       line-height: 24px;
       padding-bottom: 6px;
-      color: #D3D3D3;
+      color: #808080;
       @media (max-width: 991.98px) {
         font-size: 8px;
         line-height: 12px;

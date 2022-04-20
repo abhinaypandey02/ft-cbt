@@ -8,7 +8,9 @@ export default function Info(){
             <div className="heading">
                 Contact Us
             </div>
-            <div className="desc">CBT Proxy has been helping people since 2016 and has served national and international clients with complete satisfaction. We’d like to take a moment and say thank you for selecting us―the prominent name in the industry. If you have any doubts about training, certifications, or rack-rental systems, please fill out the form, and our team of experts will catch you as soon as time permits us.</div>
+            <div className="desc">Freshtables is Farm to Door fresh vegetables delivery.
+
+                Freshtables is Farm to Door fresh vegetables delivery.  We grow and procure vegetables from local farms and deliver them to urban areas like Home & Retail outlets, Businesses, etc. Our vision is to build a reliable and sophisticated market chain that can help farmers/consumers more easily sell/buy vegetables from the farm.</div>
             <div className="contact-info-container">
                 <div className="contact-info">
                     <div className="logo">
@@ -18,7 +20,7 @@ export default function Info(){
                         Email:&nbsp;
                     </div>
                     <div className="text">
-                        info@cbtproxy.com
+                        freshtables.in@gmail.com
                     </div>
                 </div>
                 <div className="contact-info">
@@ -29,7 +31,7 @@ export default function Info(){
                         Phone:&nbsp;
                     </div>
                     <div className="text">
-                        +1 (415) 830-6004
+                        +91 9110514772
                     </div>
                 </div>
             </div>

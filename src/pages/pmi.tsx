@@ -11,8 +11,8 @@ import TypesPMI from "../components/PMI/Types";
 export default function PMI({location}:{location:any}){
     return <Layout location={location}>
         <div className="pmi">
-            <PageHeader heading={"Project Management Institute (PMI) Certifications"}/>
-            <Navigator pathIDs={['home','certifications','pmi']}/>
+            <PageHeader heading={"Freshtables Products"}/>
+            <Navigator pathIDs={['home','pmi']}/>
             <InfoPMI/>
             <TypesPMI/>
             <GetInTouch/>

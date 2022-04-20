@@ -5,11 +5,9 @@ import {StaticImage} from "gatsby-plugin-image";
 export default function AboutCBT() {
     return <div className="aboutCBT">
         <div className="content">
-            <div className="heading">About CBTPROXY</div>
+            <div className="heading">About Freshtables</div>
             <div className="desc">
-                CBTproxy is the medium between Computer Based Test candidates and professional service providers. We
-                provide help and excellent services to enabling candidates writing CISCO, PMI, ISACA, (ISC) ² & many
-                more examinations and help them pass their examinations in just one attempt.
+                Freshtables is Farm to Door fresh vegetables delivery.  We grow and procure vegetables from local farms and deliver them to urban areas like Home & Retail outlets, Businesses, etc. Our vision is to build a reliable and sophisticated market chain that can help farmers/consumers more easily sell/buy vegetables from the farm.
             </div>
         </div>
         <div className="image">

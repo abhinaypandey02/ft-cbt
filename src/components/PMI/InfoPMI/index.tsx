@@ -6,16 +6,15 @@ export default function InfoPMI(){
     return <div className="info-pmi">
         <div className="content">
             <div className="heading">
-                Project Management Institute (PMI) Certifications
+                Freshtables Products
             </div>
             <div className="desc">
-                PMI certifications makes sure that the demands of projects and employers overall the world is fulfilled by you.
-                It has been designed in such a way so that it can fulfill the needs of the organizations in this growing world. After attaining PMP certification, the certified is known to handle any project in any industry globally.
+                Freshtables is Farm to Door fresh vegetables delivery.  We grow and procure vegetables from local farms and deliver them to urban areas like Home & Retail outlets, Businesses, etc. Our vision is to build a reliable and sophisticated market chain that can help farmers/consumers more easily sell/buy vegetables from the farm.
             </div>
 
         </div>
         <div className="image">
-            <StaticImage placeholder="blurred" src={'../../../images/pmi/pmi-logo.png'} alt={"PMI Logo"}/>
+            <StaticImage placeholder="blurred" src={'../../../images/footer-logo.jpeg'} alt={"PMI Logo"}/>
         </div>
     </div>
 }

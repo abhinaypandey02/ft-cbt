@@ -8,6 +8,7 @@ import AboutCBT from "../components/AboutUs/AboutCBT";
 import WhyUsAbout from "../components/AboutUs/WhyUs";
 import OurStrength from "../components/AboutUs/OurStrength";
 import GetInTouch from "../components/GetInTouch";
+import WhyUs from "../components/Home/WhyUs";
 
 export default function AboutUs({location}:any) {
     return  <Layout location={location}>
@@ -16,8 +17,9 @@ export default function AboutUs({location}:any) {
             <Navigator pathIDs={['home','aboutUs']}/>
 
             <AboutCBT/>
-            <WhyUsAbout/>
-            <OurStrength/>
+            <WhyUs/>
+            {/*<WhyUsAbout/>*/}
+            {/*<OurStrength/>*/}
             <GetInTouch/>
             <BlogsContainer/>
         </div>

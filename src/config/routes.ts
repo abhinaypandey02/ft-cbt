@@ -25,7 +25,7 @@ export default [
         route:"/contact-us"
     },
     {
-        name:"Project Management Institute (PMI) Certifications",
+        name:"Products",
         id:"pmi",
         route:"/pmi"
     },

@@ -14,7 +14,7 @@ const navLinks=[
     {
         name:"Products",
         id:"products",
-        route:"/products"
+        route:"/pmi"
     },
     {
         name:"Contact Us",
@@ -36,11 +36,11 @@ const navLinks=[
     //     id:"certifications",
     //     route:"/certifications"
     // },
-    {
-        name:"Careers",
-        id:"contactUs",
-        route:"/contact-us"
-    }
+    // {
+    //     name:"Careers",
+    //     id:"contactUs",
+    //     route:"/contact-us"
+    // }
 ]
 
 const PHONE="+1 (415) 830-6004"

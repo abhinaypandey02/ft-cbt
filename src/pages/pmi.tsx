@@ -14,7 +14,7 @@ export default function PMI({location}:{location:any}){
             <PageHeader heading={"Freshtables Products"}/>
             <Navigator pathIDs={['home','pmi']}/>
             <InfoPMI/>
-            <TypesPMI/>
+            {/*<TypesPMI/>*/}
             <GetInTouch/>
             <BlogsContainer/>
         </div>
